@@ -1,8 +1,15 @@
-$sm:576px;
-$md:768px;
-$lg:992px;
-$xl:1200px;
-$gutter:.5em;
+$rem-base: 16px !default;
+
+@function px2rem($size) {
+    $remSize: $size / $rem-base;
+    @return #{$remSize}rem;
+}
+
+$sm: px2rem(576px) !default;
+$md: px2rem(768px) !default;
+$lg: px2rem(992px) !default;
+$xl: px2rem(1200px) !default;
+$gutter: .5em;
 
 .p-grid {
     display: -webkit-box;

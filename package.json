@@ -9,11 +9,23 @@
     "type": "git",
     "url": "git+https://github.com/primefaces/primeflex.git"
   },
-  "keywords": ["grid","responsive","flex"],
+  "keywords": [
+    "grid",
+    "responsive",
+    "flex"
+  ],
   "author": "PrimeTek",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/primefaces/primeflex/issues"
   },
-  "homepage": "https://github.com/primefaces/primeflex#readme"
+  "homepage": "https://github.com/primefaces/primeflex#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8"
+  }
 }
