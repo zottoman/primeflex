@@ -21,11 +21,12 @@
   },
   "homepage": "https://github.com/primefaces/primeflex#readme",
   "devDependencies": {
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-util": "^3.0.8"
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
